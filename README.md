@@ -21,7 +21,7 @@ Code Preview: <br/>
 <br />
 <br />
 Example Output:  <br/>
-<img src="https://i.imgur.com/gbdKDDZ.png" height="80%" width="80%" alt="Output"/>
+<img src="https://i.imgur.com/4KzgC4q.png" height="80%" width="80%" alt="Output"/>
 <br />
 <br />
 
