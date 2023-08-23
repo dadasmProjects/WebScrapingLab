@@ -1,0 +1,23 @@
+import requests
+import re
+import csv
+#get the data
+f = open("urls.txt")
+emails = set()
+lines = f.readlines()
+for url in lines:
+    page = requests.get(url)
+    for result in re.findall(r'([\d\w\.]+@[\d\w\.\-]+\.\w+)', page.text):
+        if(result[-4:] != '.png'):
+            print(result[-4:])
+            emails.add(result.lower())
+
+sortedEmails = sorted(emails)
+
+with open('emails.csv', 'a') as f:
+    #create the csv writer
+    writer = csv.writer(f)
+
+    #write a row to the csv file
+    writer.writerow(sortedEmails)
+ 
