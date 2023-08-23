@@ -1,14 +1,13 @@
-<h1>JWipe - Email Scraping Lab </h1>
+<h1> Email Scraping Lab </h1>
 
 <h2>Description</h2>
-Project consists of a simple PowerShell script that walks the user through "zeroing out" (wiping) any drives that are connected to the system. The utility allows you to select the target disk and choose the number of passes that are performed. The PowerShell script will configure a diskpart script file based on the user's selections and then launch Diskpart to perform the disk sanitization.
+This project was created for my capstone class that was required to complete my degree program. The goal of this program was to create a webscraper that would be able to scrape emails from multiple websites. The reason that I decided to go with making a python program from scratch instead of using another pre-made solution was because for our specific need, we needed to scrape emails from hundreds of different websites, so making a tool that was as universal as possible was the best solution. The program works by taking URLs from a .txt file and running them through the program and then it will spit out the emails that have been found into an excel file.
 <br />
 
 
-<h2>Languages and Utilities Used</h2>
+<h2>Language</h2>
 
-- <b>PowerShell</b> 
-- <b>Diskpart</b>
+- <b>Python</b> 
 
 <h2>Environments Used </h2>
 
